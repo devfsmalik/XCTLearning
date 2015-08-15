@@ -84,14 +84,14 @@
 }
 
 
-/*
+
 - (void)testTableViewHeightForRowAtIndexPath
 {
     CGFloat expectedHeight = 44.0;
     CGFloat actualHeight = self.vc.tableView.rowHeight;
     XCTAssertEqual(expectedHeight, actualHeight, @"Cell should have %f height, but they have %f", expectedHeight, actualHeight);
 }
-*/
+
 
 
 - (void)testTableViewCellCreateCellsWithReuseIdentifier
