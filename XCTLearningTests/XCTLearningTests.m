@@ -51,6 +51,11 @@
     XCTAssertTrue([subviews containsObject:self.vc.tableView], @"View does not have a table subview");
 }
 
+-(void)testWaqas
+{
+    XCTAssertTrue(false,"Waqas Test Case Failed");
+}
+
 -(void)testThatTableViewLoads
 {
     XCTAssertNotNil(self.vc.tableView, @"TableView not initiated");
@@ -83,7 +88,7 @@
     XCTAssertTrue([self.vc tableView:self.vc.tableView numberOfRowsInSection:0]==expectedRows, @"Table has %ld rows but it should have %ld", (long)[self.vc tableView:self.vc.tableView numberOfRowsInSection:0], (long)expectedRows);
 }
 
-
+/*
 
 - (void)testTableViewHeightForRowAtIndexPath
 {
@@ -92,7 +97,7 @@
     XCTAssertEqual(expectedHeight, actualHeight, @"Cell should have %f height, but they have %f", expectedHeight, actualHeight);
 }
 
-
+*/
 
 - (void)testTableViewCellCreateCellsWithReuseIdentifier
 {
