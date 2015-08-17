@@ -51,10 +51,6 @@
     XCTAssertTrue([subviews containsObject:self.vc.tableView], @"View does not have a table subview");
 }
 
--(void)testWaqas
-{
-    XCTAssertTrue(false,"Waqas Test Case Failed");
-}
 
 -(void)testThatTableViewLoads
 {
